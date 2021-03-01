@@ -97,6 +97,9 @@ p {
 
 /* Navbar */
 #navbar {
+  position: sticky;
+  top: 0;
+  left: 0;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -129,4 +132,32 @@ p {
 .navbar__menu__item:hover {
   background-color: var(--color-dark-pink);
   border-radius: var(--size-border-radius);
+}
+
+#home {
+  background: var(--color-pink);
+  padding: 40px;
+  text-align: center;
+}
+
+.home_avatar { 
+  width: 250px; 
+  height: 250px; 
+  border-radius: 50%; 
+  border: 2px solid var(--color-white);
+}
+
+.home__title,
+.home__description {
+  color: var(--color-white);
+}
+
+.home__contact { 
+  color: var(--color-white);
+  font-size: var(--font-regular);
+  font-weight: var(--weight-bold);
+  margin: 24px;
+  padding: 8px 12px;
+  border: 2px solid #fff;
+  border-radius: 4px;
 }
