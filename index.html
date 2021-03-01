@@ -24,39 +24,66 @@
       <li class="navbar__menu__item">About</li>
       <li class="navbar__menu__item">Skill</li>
       <li class="navbar__menu__item">Project</li>
-      <li class="navbar__menu__item">TMI</li>
       <li class="navbar__menu__item">Contact</li>
     </ul>
   </nav>
   <!-- home -->
   <section id="home">
-    <img src="img/myProfile.jpg" alt="YouJung's profile photo" class="home_avatar"> 
+    <img src="img/myProfile.jpg" alt="YouJung's profile photo" class="home__avatar"> 
     <h1 class="home__title">Hello, I'm YouJung</h1>
-    <h2 class="home__description">Web Publisher / Front-End Developer</h2>
+    <h2 class="home__description">Front-End Developer</h2>
     <button class="home__contact">Contact Me</button>
   </section>
   <!-- about -->
-  <section id="about">
+  <section id="about" class="section section__container">
     <h1>About me</h1>
-    <div class="about__myProfile">
-      <div class="about__myImg">
+    <p>
+      웹 프론트 엔지니어 임유정입니다.<br>
+      대학 시절부터 여러 프로젝트를 수행하면서 개발 역량을 쌓아왔고, 현재는 개발회사에서 일 하고 있습니다.<br>
+      자기개발에 손을 놓지 않고 퇴근 후에는 사이드 프로젝트를 하며 공부합니다.<br>
+      현재는 <b>디자인 감각이 있는 프론트엔드 개발자</b>를 지향하고 있습니다.<br>
+      <br>
+      저는 제 일을 좋아합니다. 좋아하니까 즐기게 되고 더 잘하고 싶어집니다.<br>
+      그러다보면 거기에 저만의 특별한 무언가가 담기게 되더라고요.<br>
+      목표를 향해 성큼성큼 나아가는 의지, 끊임없이 솟아오르는 영감, 그리고 생기발랄함까지.<br>
+      모두 제가 가진 저만의 '다움'입니다 :)
+    </p>
+    <div class="about__majors">
+      <div class="major">
+        <div class="major__icon">
+          <i class="far fa-address-card"></i>        </div>
+        <h2 class="major__title">Intro</h2>
+        <div class="major__description">
+          임유정<br>
+          970508<br>
+        </div>
       </div>
-      <div class="about__myIntro">
-        <span>임유정</span>
-        <span>Lim You Jung</span>
-        <p>Front-End Developer</p>
-        <p>Web Publisher</p>
-        <p>Birth : 1997.05.08</p>
+      <div class="major">
+        <div class="major__icon">
+          <i class="far fa-sun"></i>
+        </div>
+        <h2 class="major__title">Goal</h2>
+        <p class="major__description">
+          Front-end developer<br>
+          with a sense of design
+        </p>
       </div>
-    </div>
-    <div class="about__myIntro">
-      <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut alias, consectetur doloremque reprehenderit provident sit dolores placeat dicta explicabo fugiat hic aspernatur culpa tempore et pariatur enim! Expedita, ab dolore?</span>
+      <div class="major">
+        <div class="major__icon">
+          <i class="far fa-smile-wink"></i>
+        </div>
+        <h2 class="major__title">Motto</h2>
+        <p class="major__description">
+          느리더라도 꾸준히
+        </p>
+      </div>
     </div>
   </section>
+
   <!-- skills -->
   <section id="skills">
     <h1>Skills</h1>
-    <p>Experience with all phases of the software life-cycle. Passion for learning new technologies. Capable of working within a team environment and independently. Ability to plan and time schedule, work under strict time pressure and adapt quickly when needed.</p>
+    <p>Experience with all phases of the software life-cycle.<br>Passion for learning new technologies.<br>Capable of working within a team environment and independently.<br>Ability to plan and time schedule, work under strict time pressure and adapt quickly when needed.</p>
     <div class="skillSet">
       <h2>Skills and Attributes</h2>
       <ul class="skillSet__skill">
@@ -84,74 +111,110 @@
         <li class="skillImg"><img src="img/skills/git.png" alt="Git" class="skillEtc"></li>
         <li class="skillImg"><img src="img/skills/slack.png" alt="Slack" class="skillEtc"></li>
       </ul>
-      <span>UI Developer</span><span>MarkUp</span><span>Co-work</span><span>Skills</span><span>For Users</span>
-    </div>
-  </section>
-  <!-- projects -->
-  <section id="projects">
-    <h2>Project</h2>
-    <div class="work__projects">
-      <a href="" class="projects" target="blank"></a><!--프로젝트 링크-->
-      <img src="" alt=""> <!--이미지 넣기-->
-      <div class="projecr__description">
-        <h3>profile</h3>
-        <span>with Html, Css, Javascript </span>
-      </div>
-      <a href="" class="projects" target="blank"></a><!--프로젝트 링크-->
-      <img src="" alt=""> <!--이미지 넣기-->
-      <div class="projecr__description">
-        <h3>profile</h3>
-        <span>with Html, Css, Javascript </span>
-      </div>
-      <a href="" class="projects" target="blank"></a><!--프로젝트 링크-->
-      <img src="" alt=""> <!--이미지 넣기-->
-      <div class="projecr__description">
-        <h3>profile</h3>
-        <span>with Html, Css, Javascript </span>
-      </div>
-      <a href="" class="projects" target="blank"></a><!--프로젝트 링크-->
-      <img src="" alt=""> <!--이미지 넣기-->
-      <div class="projecr__description">
-        <h3>profile</h3>
-        <span>with Html, Css, Javascript </span>
-      </div>
-      <a href="" class="projects" target="blank"></a><!--프로젝트 링크-->
-      <img src="" alt=""> <!--이미지 넣기-->
-      <div class="projecr__description">
-        <h3>profile</h3>
-        <span>with Html, Css, Javascript </span>
-      </div>
-      <a href="" class="projects" target="blank"></a><!--프로젝트 링크-->
-      <img src="" alt=""> <!--이미지 넣기-->
-      <div class="projecr__description">
-        <h3>profile</h3>
-        <span>with Html, Css, Javascript </span>
+      <div class="skillSet__End">
+        <span>UI Developer</span><span>MarkUp</span><span>Co-work</span><span>Skills</span><span>For Users</span>
       </div>
     </div>
   </section>
-  <!-- tmi -->
-  <section id="tmi">
-    <h2>Too Much Informarion</h2>
-    <h3>Motto</h3>
-    <ul class="tmi__motto">
-      <li class="tmi__mottoList">hi</li>
-      <li class="tmi__mottoList">hi</li>
-      <li class="tmi__mottoList">hi</li>
-      <li class="tmi__mottoList">hi</li>
-    </ul>
-    <h3>Like</h3>
-    <ul class="tmi__like">
-      <li class="tmi__likeList">i like</li>
-      <li class="tmi__likeList">i like</li>
-      <li class="tmi__likeList">i like</li>
-      <li class="tmi__likeList">i like</li>
-    </ul>
-  </section>
-  <!-- contact -->
-  <section id="contact">
-    <h1>Let's talk</h1>
-    <h2>imyoujung0508@gmail.com</h2>
-    <p>2021 YouJung Profile - All rights reserved</p>
-  </section>
+
+  <!-- Work -->
+  <section id="work" class="section">
+    <div class="section__container">
+      <h1>My work</h1>
+      <h3>Projects</h3>
+      <div class="work__categories">
+        <button class="category__btn selected" data-filter="*">
+          All <span class="category__count">8</span>
+        </button>
+        <button class="category__btn" data-filter="front-end">
+          Front-end <span class="category__count">3</span>
+        </button>
+        <button class="category__btn" data-filter="design">
+          Design <span class="category__count">3</span>
+        </button>
+        <button class="category__btn" data-filter="mobile">
+          Mobile <span class="category__count">2</span>
+        </button>
+      </div>
+      <div class="work__projects">
+        <a href="" class="project" target="blank" data-type="front-end">
+          <img
+            src="img/projects/youtube.png"
+            alt="Youtube"
+            class="project__img"
+          />
+          <div class="project__description">
+            <h3>Youtube Site</h3>
+            <span>with HTML, CSS, JS</span>
+          </div>
+        </a>
+        <a
+          href=""
+          class="project"
+          data-type="front-end"
+          target="blank"
+        >
+          <img
+            class="project__img"
+            src="img/projects/navbar.png"
+            alt="navbar"
+          />
+          <div class="project__description">
+            <h3>Responsive Navbar</h3>
+            <span>HTML, CSS with media query</span>
+          </div>
+        </a>
+        <a
+          href=""
+          class="project"
+          data-type="front-end"
+          target="blank"
+        >
+          <img class="project__img" src="img/projects/game.png" alt="navbar" />
+          <div class="project__description">
+            <h3>Shopping mall game</h3>
+            <span>HTML, CSS, JavaScript, Json</span>
+          </div>
+        </a>
+        <a href="" class="project" target="blank" data-type="front-end">
+          <p>준비중 ....</p>
+          <div class="project__description">
+            <h3>준비중 ....</h3>
+          </div>
+        </a>
+        <a href="" class="project" target="blank" data-type="front-end">
+          <p>준비중 ....</p>
+          <div class="project__description">
+            <h3>준비중 ....</h3>
+          </div>
+        </a>
+        <a href="" class="project" target="blank" data-type="front-end">
+          <p>준비중 ....</p>
+          <div class="project__description">
+            <h3>준비중 ....</h3>
+          </div>
+        </a>
+      </div>
+      </div>
+    </section>
+
+      <!-- Contact -->
+      <section id="contact" class="section">
+        <h1 class="contact__title">Let's talk</h1>
+        <h2 class="contact__email">imyoujung0508@gmail.com</h2>
+        <div class="contact__links">
+          <a href="" target="_blank">
+            <i class="fab fa-github"></i>
+          </a>
+        </div>
+        <p class="contact__rights">
+          2020 Lim,YouJung - All rights reserved
+        </p>
+      </section>
+  
+      <!-- Arrow up -->
+      <button class="arrow-up">
+        <i class="fas fa-arrow-up"></i>
+      </button>
 </body>
 </html>
